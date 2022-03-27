@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-26T08:22:09Z" name="Suite1" finished-at="2022-03-26T08:22:12Z" duration-ms="3452">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:orange.ny.runner.MyRunner@a22cb6a]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-03-26T08:22:09Z" name="SmokeTest" finished-at="2022-03-26T08:22:12Z" duration-ms="3452">
+      <class name="orange.ny.runner.MyRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:orange.ny.runner.MyRunner@a22cb6a]" started-at="2022-03-26T08:22:09Z" name="setUpClass" finished-at="2022-03-26T08:22:09Z" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:orange.ny.runner.MyRunner@a22cb6a]" started-at="2022-03-26T08:22:09Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-03-26T08:22:12Z" duration-ms="3277" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User able to login with valid username & password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:orange.ny.runner.MyRunner@a22cb6a]" started-at="2022-03-26T08:22:12Z" name="tearDownClass" finished-at="2022-03-26T08:22:12Z" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- orange.ny.runner.MyRunner -->
+    </test> <!-- SmokeTest -->
+  </suite> <!-- Suite1 -->
+</testng-results>

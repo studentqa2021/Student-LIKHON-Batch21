@@ -1,0 +1,84 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 5,
+            "value": "#Background:   Contain common step"
+          }
+        ],
+        "line": 7,
+        "name": "User can login with valid username \u0026 password and verify the page",
+        "description": "",
+        "id": "user-able-to-login-with-valid-username-\u0026-password;user-can-login-with-valid-username-\u0026-password-and-verify-the-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2867760100,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 9,
+                "value": "#Given User can open any browser"
+              },
+              {
+                "line": 10,
+                "value": "#And User able to enter url"
+              },
+              {
+                "line": 11,
+                "value": "# Above steps in cucumber hooks"
+              }
+            ],
+            "line": 12,
+            "name": "User enter the userName and password",
+            "match": {
+              "location": "StepDefinition.user_enter_the_userName_and_password()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 377294400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User click on the login button",
+            "match": {
+              "location": "StepDefinition.user_click_on_the_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5401300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User login successfull \u0026 verify the homepage",
+            "match": {
+              "location": "StepDefinition.user_login_successfull_verify_the_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "User able to login with valid username \u0026 password",
+    "description": "\r\nDescription: \"User login orangenyhrm website \u0026 verify title\"",
+    "id": "user-able-to-login-with-valid-username-\u0026-password",
+    "keyword": "Feature",
+    "uri": "testFunction.feature"
+  }
+]
